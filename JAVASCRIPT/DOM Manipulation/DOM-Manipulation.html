@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element by ID</title>
+    <!-- <script src="script.js" defer></script> -->
+</head>
+<body>
+    <div id="exampleDiv">
+        <p id="exampleParagraph">This is a paragraph with element with ID "exampleParagraph"</p>
+    </div>
+
+    <script>
+    // Accessing the paragraph element with ID "exampleParagraph"
+    var paragraph = document.getElementById("exampleParagraph");
+    console.log(paragraph.innerHTML);
+    
+    // Manipulate element 
+    paragraph.textContent = "This text is changed dynamically using Javascript!"
+    console.log(paragraph.innerHTML);
+
+    // Accessing the div element with ID "exampleDiv"
+    var divElement = document.getElementById("exampleDiv")
+    divElement.style.background = "red";
+
+     // Adding a new paragraph after the existing one
+     var newParagraph = document.createElement("p");
+    newParagraph.textContent = "This is a new paragraph added dynamically.";
+
+    // Adding a new attribute to an element
+    newParagraph.setAttribute("class", "new-paragraph");
+
+    // all changes should be appended
+    divElement.appendChild(newParagraph);
+
+    //using query-selector
+    var divElement2 = document.querySelector("p.new-paragraph");
+    divElement2.textContent = "The text is changed again";
+    console.log(divElement2.innerHTML);
+    divElement2.style.color = "white";
+    divElement.appendChild(divElement2);
+
+</script> 
+    
+</body>
+</html>

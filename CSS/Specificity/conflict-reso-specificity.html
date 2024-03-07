@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+        header.specific p{
+            color:blue;
+        }
+        p.more-specific{
+            color: red;
+        }
+        /* p{
+            color: green !important; 
+        } */
+    </style>
+</head>
+<body>
+    <header class="specific">
+    <p class="more-specific">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore exercitationem sed ipsum adipisci harum laudantium nostrum laboriosam soluta odit architecto, beatae ducimus blanditiis magnam atque fugiat. Id quidem officia aliquam.</p>
+    </header>
+</body>
+</html>
