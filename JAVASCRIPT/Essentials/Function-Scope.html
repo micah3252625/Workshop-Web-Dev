@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Scope</title>
+</head>
+<body>
+    <script>
+        // var x = 2;
+        // a();
+
+        // function a(){
+        //     var x = 5;
+        //     b();
+        // }
+        // function b(){
+        //     console.log(x);
+        // }
+
+        var message = "in global scope"; //global scope #1
+        console.log(message);
+
+        var a = function (){ 
+            var message = "in function scope" //function scope #2
+            console.log(message);
+            
+            // function b(){  //create function inside the function scope #5
+            //     console.log(message);
+            // }
+            //b();
+        }
+        // function b (){ //function invoke in global scope  #4         
+        //     console.log(message);
+        // }
+
+        a(); //#3
+
+    </script>
+</body>
+</html>
+
