@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+</head>
+<body>
+    <h1 id="title">Document Object Model</h1>
+    <p>Say hello to
+        <input id="name" type="text">
+        <button onclick="sayHello();">Say it!</button>
+    </p>
+    <div id="content"></div>
+    <script>
+
+        function sayHello(){
+        var name = document.getElementById("name").value;
+        //console.log(document.getElementById("name").value);
+        //var message = "Hello " + name + "!";
+        //document.getElementById("content").textContent = message; //add text content to an element
+
+        //Instance that the content will be an H2 element inside the div
+        var message = "<h2>Hello " + name + "!</h2>";
+        document.getElementById("content").innerHTML = message;
+
+        //using query selector
+            if(name === "mhez"){
+                var title = document.querySelector("#title").textContent;
+
+                title = title + " Manipulation";
+                document.querySelector('h1').textContent = title;
+            }
+        }
+    </script>
+
+
+</body>
+</html>
+
