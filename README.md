@@ -25,7 +25,7 @@ This LMS repository is a comprehensive resource for individuals looking to learn
 	**Navigate to the cloned repository directory:
 		**bash**
 		Copy code
-		cd web-dev-lms
+		cd Workshop-Web-Dev
 		Explore the learning materials, code samples, and demos available in the repository.
 	**
  
