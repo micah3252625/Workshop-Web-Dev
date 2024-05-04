@@ -1,5 +1,6 @@
-Web Development Learning Management System (LMS)
-Welcome to the Web Development Learning Management System (LMS) repository! This repository is designed to help you learn HTML, CSS, and JavaScript through curated learning materials, code samples, and interactive demos.
+**Web Development Learning Management System (LMS)**
+	**Welcome to the Web Development Learning Management System (LMS) repository! **
+	This repository is designed to help you learn HTML, CSS, and JavaScript through curated learning materials, code samples, and interactive demos.
 
 Table of Contents
 	Introduction
@@ -13,19 +14,21 @@ Table of Contents
 This LMS repository is a comprehensive resource for individuals looking to learn web development from scratch or enhance their existing skills. It covers fundamental concepts of HTML, CSS, and JavaScript, as well as advanced topics to help you build robust and interactive web applications.
 
 **Getting Started**
-To get started with the Web Development LMS, follow these steps:
 
-Clone this repository to your local machine using the following command:
-**bash**
-	Copy code
-	git clone https://github.com/micah3252625/Workshop-Web-Dev.git
-
-Navigate to the cloned repository directory:
-	**bash**
-	Copy code
-	cd web-dev-lms
-	Explore the learning materials, code samples, and demos available in the repository.
-
+	**To get started with the Web Development LMS, follow these steps:
+	
+	Clone this repository to your local machine using the following command:
+		**bash**
+		Copy code
+		git clone https://github.com/micah3252625/Workshop-Web-Dev.git**
+	
+	**Navigate to the cloned repository directory:
+		**bash**
+		Copy code
+		cd web-dev-lms
+		Explore the learning materials, code samples, and demos available in the repository.
+	**
+ 
 **Features**
 Curated Learning Materials: Access comprehensive learning materials covering HTML, CSS, and JavaScript.
 Code Samples: Explore a variety of code samples demonstrating best practices and common patterns in web development.
