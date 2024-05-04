@@ -25,6 +25,7 @@ This LMS repository is a comprehensive resource for individuals looking to learn
 Curated Learning Materials: Access comprehensive learning materials covering HTML, CSS, and JavaScript.
 Code Samples: Explore a variety of code samples demonstrating best practices and common patterns in web development.
 Interactive Demos: Engage with interactive demos to reinforce your understanding of key concepts.
+**https://github.com/micah3252625/Workshop-Web-Dev/blob/main/Workshop%20On%20Web%20Development.pdf**
 
 **Usage**
 You can use this repository for self-paced learning or as a supplemental resource alongside other web development courses. Feel free to explore the materials, experiment with code samples, and interact with demos to deepen your understanding of web development concepts.
