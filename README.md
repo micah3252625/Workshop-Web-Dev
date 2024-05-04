@@ -1,15 +1,6 @@
 **Web Development Learning Management System (LMS)**
-	**Welcome to the Web Development Learning Management System (LMS) repository! **
-	This repository is designed to help you learn HTML, CSS, and JavaScript through curated learning materials, code samples, and interactive demos.
+	**Welcome to the Web Development Learning Management System (LMS) repository! This repository is designed to help you learn HTML, CSS, and JavaScript through curated learning materials, code samples, and interactive demos.**
 
-Table of Contents
-	Introduction
-	Getting Started
-	Features
-	Usage
-	Contributing
-	License
- 
 **Introduction**
 This LMS repository is a comprehensive resource for individuals looking to learn web development from scratch or enhance their existing skills. It covers fundamental concepts of HTML, CSS, and JavaScript, as well as advanced topics to help you build robust and interactive web applications.
 
